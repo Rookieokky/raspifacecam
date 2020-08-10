@@ -6,11 +6,17 @@ Make sure to change the network IP's in the 2 script files to the appropriate ad
 
 
 Requirements:
+
 opencv2,
+
 vidgear,
+
 the simple_pid library,
+
 a raspberry pi (preferably edition 4) with Wi-Fi capability,
+
 a raspberry pi camera (scripts tested with the official camera V2) and assorted libraries (picamera[array]),
+
 the Pimorino Pan-Tilt hat and assorted library.
 
 
