@@ -87,10 +87,10 @@ try:
         else:
             ret = False
         index += 1
-        if index > DETECTORCONST*(FRAMERATE-1):
+        if index > DETECTORCONST*(FRAMERATE)-1:
             index = 0
         print(index)
-        if index == DETECTORCONST*(FRAMERATE-1) or track_fail:  # every 16 frames
+        if index == DETECTORCONST*(FRAMERATE)-1 or track_fail:  # every 16 frames
             face_rects = face_cascade.detectMultiScale(frame)  # attempt to find new face
             boolret, ind = has_big_rect(face_rects)
             cv2.putText(frame, "Detecting..", (230, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 0, 255),3)
