@@ -1,5 +1,5 @@
 # raspifacecam
-Two python scripts utilizing the vidgear library and the Pimorino Pan-Tilt raspi HAT to create a face-tracking robot, with all opencv processing done server-side.
+Two python scripts utilizing the vidgear library and the Pimorino Pan-Tilt raspi HAT to create a camera that moves to follow a tracked face, with all opencv processing done server-side.
 
 Run PID_track.py on the rasperry pi, and Net_Client_Tracker_PID.py on a computer located on the same Wi-Fi network.
 Make sure to change the network IP's in the 2 script files to the appropriate address your network devices are using.
